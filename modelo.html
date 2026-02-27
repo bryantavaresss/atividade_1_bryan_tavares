@@ -3,59 +3,79 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bryan Tavares</title>
+    <title>Site do Batman</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color:aliceblue;
+        background-color:black;
+        font-family: system-ui, Arial, sans-serif;
+        line-height: 1.5;
+      }
+    </style>
   </head>
+  
+  <body id="topo">
+    <div class="container" id="pagina">
+      <header class="box" id="cabecalho">
+        <div class="header-interno">
+          <h1 class="titulo">Site do Batman</h1>
+          <p>
+            Bem vindo a Gotham City: <strong>vigilância</strong>, <em>tecnologia</em> e estratégia.
+          </p>
+      </div> 
+      </header>
+      </div>
 
-  <body>
-<article> 
-  <header> 
-    <h1>Top bandas/artistas gospel:</h1>
-    <p>Melhores bandas e artistas gospel na minha opinião:</p>
-  </header>
-</article>
-  <nav>
-    <ul>
-      <li><a href="https://open.spotify.com/intl-pt/artist/0V208yTQ5OGOUBZuszu6Fn"> FHOP MUSIC</a></li>
-      <li><a href="https://open.spotify.com/intl-pt/artist/2Js5EdWOVgL2B2CbtXr5n1"> Thalles Roberto</a></li>
-      <li><a href="https://open.spotify.com/intl-pt/artist/2aHIXgsgccgg4j8BBzrvb6"> José Jr</a></li>
-    </ul>
-  </nav>
-    <main>
-      <section>
-       <h2>Mais sobre a FHOP MUSIC:</h2>
-      <p>A Fhop Music começou do transbordar da <strong>Casa de Oração em Florianópolis</strong>, onde líderes de louvor, muitas vezes cantando as Escrituras em uma sala vazia viram surgir canções sinceras que abençoariam a <em>Igreja de Cristo na Terra</em>.</p>
-      <p> Ouça o último lançamento do ministério, o álbum <strong>“ Meia Noite (Ao Vivo)"</strong>.</p>
+      <nav class="box" id="menu">
+        <div class="nav-interno">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#apresentacao">Gotham</a></li>
+            <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tabela">Missões</a></li>
+          </ul>
+        </div>
+      </nav>
 
+    </main id="conteudo">
+      <div class="row" id="linha-1">
+        <section class="box-panel" id="apresentacao">
+          <h2>Quem é o Batman?</h2>
+          <p>
+            Batman (Bruce Wayne) é um personagem da DC Comics que atua como justiceiro de Gotham. Ele não tem superpoderes: sua força está em <strong>treinamento</strong>, 
+            <em>inteligência</em> e recursos (ou seja,rico).
+          </p>
+
+          <p>
+            Nas histórias, Gotham costuma representar problemas sociais reais: desigualdade, corrupção e violência urbana. Muitos quadrinhos usam o Batman 
+            como forma de <strong>crítica social</strong>, mostrando como decisões políticas, interesses econômicos, falhas nas instituições e o autoritarismo afetam o cotidiano das pessoas,
+            especialmente nas periferias.
+          </p>
+          </section>
+        </div>
+
+      <section class="box" id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery" id="galeria-imagens">
+          <img class="bat-img" src="batman1.webp" alt="Batman safadinho." width="220" height="120">
+          <img class="bat-img" src="batman2.jpg" alt="Batman aura." width="220" height="120">
+          <img class="bat-img" src="batman3.jpg" alt="Batman raivoso." width="220" height="120">
+        </div>
       </section>
-      
-      <section>
-        <h2>Principais artistas da FHOP MUSIC:</h2>
-      <ul>
-      <li><a href="https://www.instagram.com/felipeeubank/"> Felipe Eubank (Guitarrista) </a></li>
-      <li><a href="https://www.instagram.com/ellendkarla/"> Ellen D'Karla (Vocalista) </a></li>
-      <li><a href="https://www.instagram.com/patrickleonardo0/"> Patrick Leonardo (Violonista/Vocalista) </a></li>
-      <li><a href="https://www.instagram.com/gabilaranjo/"> Gabriela Laranjo (Vocalista) </a></li>
-    </ul>
+      </main>
 
-      <section>
-          <h2>Imagens</h2>
-          <figure>
-            <img src="fhop.jfif" alt="FHOP MUSIC" width="640" height="640">
-            <figcaption>Elenco principal da FHOP MUSIC</figcaption>
-          </figure>
-
-      </section>
-
-      <section>
-        <h2> </h2>
-      </section>
-    </main>
-    <!-- SEÇÃO D: Tabela -->
-    <!-- Use SECTION, inclua H2 e uma TABLE com:
-         - uma linha de cabeçalho (TR) com TH: Item | Descrição | Prioridade
-         - 3 linhas (TR) com TD (valores livres, coerentes)
-    -->
-
-    <!-- TODO 04: FOOTER com um P e um link (A) para uma fonte usada na pesquisa -->
+      <footer class="box" id="rodape">
+        <p class="texto=rodape">
+          <a class="link" href="#topo">Topo</a>
+        </p>
+        <p class="texto-rodape"</p>
+          Exemplo para treino de HTML e CSS.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
